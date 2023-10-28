@@ -9,7 +9,8 @@
 }
 nav {
   background-color: rgba(0, 0, 0, 0.8);
-  height: 50px;
+  height: 2%;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,6 +25,33 @@ nav > ul > li {
 }
 nav > ul > li > a {
   color: white;
+}
+@media screen and (max-width:400px) {
+ 
+  nav{
+    height: 2%;
+    
+  }
+   nav > ul {
+   
+    display: flex;
+   flex-direction: column;
+   
+   
+  }
+  #new-lauched > ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    color: #1D1D1F;
+  }
+  
 }
 
 #new-lauched > ul {
