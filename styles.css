@@ -93,6 +93,15 @@ line-height: 29.001px; /* 138.1% */
 letter-spacing: 0.231px;
 margin-bottom: 15px;
 }
+.search{
+  margin-top: 50px ;
+}
+.bag{
+  margin-top: 10px;
+}
+.apple{
+  margin-top: 10px;
+}
 .btn{
   border-radius: 980px;
 background: #0071E3;
