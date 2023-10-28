@@ -51,6 +51,33 @@ nav > ul > li > a {
     font-weight: 400;
     color: #1D1D1F;
   }
+  .land1{
+    width: 400px;
+    height: 600px;  
+  }
+  #landing3{
+    display: flex;
+    flex-direction: column;
+  }
+  #land3text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .land3img{
+    width: 400px;
+    height: 600px;  
+  }
+  #landing4{
+    position:fixed;
+  }
+
+  #product-table{
+    position:fixed;
+  }
   
 }
 
@@ -81,6 +108,7 @@ nav > ul > li > a {
     padding-top: 50px;
     padding-bottom: 10px;
 }
+
 .new{
   color: #6E6E73;
 
