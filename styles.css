@@ -113,6 +113,7 @@ letter-spacing: -0.374px;
 flex-direction: column;
 justify-content: center;
 margin-inline: 20px;
+border-style: none ;
 }
 .learn{
   color: #06C;
