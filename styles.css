@@ -18,10 +18,11 @@ nav {
 nav > ul {
   display: flex;
   align-items: center;
+  
 }
 nav > ul > li {
   list-style-type: none;
-  margin-inline: 20px;
+  margin-inline: 10px;
 }
 nav > ul > li > a {
   color: white;
@@ -298,15 +299,25 @@ border-style: none;
 .line{
   margin-top: 50px;
 }
-
+#landing4{
+  
+  width: 100%;
+  height: 100vh;
+}
 #landing4>div{
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 700px;   
    
+   
+}
+.land4text{
+  margin-top: 60px;
+  margin-bottom: 100px;
+  margin-right: 500px
+  
 }
 #product-table{
   display: flex;
@@ -328,14 +339,16 @@ td,th {
   #info{
     background: #F5F5F7;
     display: flex;
-    width: 976.388px;
+    width: 800px;
     height: 318px;
+    margin-left: 15%;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     text-align: justify;
-    margin-top: 1000px;
-    margin-left: 25%;
+    margin-top: 1250px;
+    align-self: auto;
+    
     
     color: #6E6E73;
 
@@ -357,7 +370,7 @@ line-height: 16px;
   }
 
 #footer{
-  margin-top: 1050px;
+  margin-top: 1250px;
   display: flex;
   
   
